@@ -11,7 +11,7 @@ select
     {{ adapter.quote('id') }},
     sku,
     {{ adapter.quote('name') }},
-    slug as test,
+    slug as tests,
     tags,
     price,
     _links,
